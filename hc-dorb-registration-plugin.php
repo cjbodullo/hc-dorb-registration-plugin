@@ -484,7 +484,7 @@ function hcdr_render_form_shortcode($atts, $content = '', $tag = '')
     $provinces = hcdr_get_canadian_provinces();
 
     $assets = [
-        'step1' => 'http://localhost/wordpress/wp-content/uploads/2026/06/dorb-header.webp',
+        'step1' => HCDR_PLUGIN_URL .'assets/images/step1.webp',
         'samplits_logo' => HCDR_PLUGIN_URL . 'assets/images/babybrands-logo.png',
         'thankyou_banner' => HCDR_PLUGIN_URL . 'assets/images/distributors-banner-thankyou.webp',
     ];
